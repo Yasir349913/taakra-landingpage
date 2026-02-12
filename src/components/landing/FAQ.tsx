@@ -9,35 +9,37 @@ interface FAQItem {
 }
 
 const faqData: FAQItem[] = [
-    {
-        question: "What is Taakra?",
-        answer: "Taakra is a student-led society at UCP focused on developing students' skills across various fields including business, media, technology, and creative domains. We provide opportunities for hands-on learning, networking, and professional growth."
-    },
-    {
-        question: "What domains can I join?",
-        answer: "We offer multiple domains for you to explore and develop your skills: Graphics Design, Web Hosting, Communication, Management, Social Media, Marketing, and Creatives. You can join one or multiple domains based on your interests and career goals."
-    },
-    {
-        question: "Do you organize industrial tours?",
-        answer: "Yes! We regularly organize industrial tours to give students real-world exposure and insights into various industries. These tours help bridge the gap between academic learning and practical industry experience."
-    },
-    {
-        question: "How do I join Taakra?",
-        answer: "You can join Taakra by visiting our website and selecting the domain(s) you're interested in. Click on 'Join Us' to register, or attend our information sessions at the beginning of each semester."
-    },
-    {
-        question: "Can I join multiple domains?",
-        answer: "Absolutely! We encourage students to explore multiple domains to broaden their skill set. You can participate in multiple domains and develop diverse skills."
-    },
-    {
-        question: "What skills will I develop?",
-        answer: "Depending on your chosen domain, you'll develop practical skills relevant to your field. From graphic design and creative skills to business management, social media marketing, communication strategies, and technical hosting knowledge."
-    },
-    {
-        question: "How can I contact Taakra?",
-        answer: "You can contact us through our website, social media platforms, or by reaching out to our leadership team."
-    }
+  {
+    question: "What is Taakra?",
+    answer: "Taakra is a student-led society at UCP focused on developing students’ skills across various fields including business, media, technology, and creative domains. We provide opportunities for hands-on learning, networking, and professional growth."
+  },
+  {
+    question: "What domains can I join?",
+    answer: "We offer multiple domains for you to explore and develop your skills: Graphics Design, Web Hosting, Communication, Management, Social Media, Marketing, and Creatives. You can join one or multiple domains based on your interests and career goals."
+  },
+  {
+    question: "Do you organize industrial tours?",
+    answer: "Yes! We regularly organize industrial tours to give students real-world exposure and insights into various industries. These tours help bridge the gap between academic learning and practical industry experience."
+  },
+  {
+    question: "How do I join Taakra?",
+    answer: "You can join Taakra by visiting our website and selecting the domain(s) you’re interested in. Click on ‘Join Us’ to register, or attend our information sessions at the beginning of each semester."
+  },
+  {
+    question: "Can I join multiple domains?",
+    answer: "Absolutely! We encourage students to explore multiple domains to broaden their skill set. You can participate in multiple domains and develop diverse skills."
+  },
+  {
+    question: "What skills will I develop?",
+    answer: "Depending on your chosen domain, you’ll develop practical skills relevant to your field. From graphic design and creative skills to business management, social media marketing, communication strategies, and technical hosting knowledge."
+  },
+  {
+    question: "How can I contact Taakra?",
+    answer: "You can contact us through our website, social media platforms, or by reaching out to our leadership team."
+  }
 ];
+
+
 
 function FAQ() {
     const [openIndex, setOpenIndex] = useState<number | null>(null);
@@ -61,9 +63,10 @@ function FAQ() {
           Questions
         </span>
       </h2>
-      <p className="text-gray-300 text-lg mt-6 max-w-2xl mx-auto leading-relaxed">
-        Find answers to common questions about Taakra. Can't find what you're looking for? Contact us!
-      </p>
+     <p className="text-gray-300 text-lg mt-6 max-w-2xl mx-auto leading-relaxed">
+  Find answers to common questions about Taakra. Can’t find what you’re looking for? Contact us!
+</p>
+
     </div>
 
     {/* FAQ Items */}
